@@ -31,23 +31,23 @@ $timer->add("Echoing Body");
 ### Show the Results
 The HTML Output:
 
->```php
-$timer->htmlOut();
-```
->![Screenshot](readme/sc1.png)
+> ```php
+> $timer->htmlOut();
+> ```
+> ![Screenshot](readme/sc1.png)
 
 
 The Text Output:
 
->```php
-$timer->logPeriods();
-```
->![Screenshot](readme/sc2.png)
+> ```php
+> $timer->logPeriods();
+> ```
+> ![Screenshot](readme/sc2.png)
 
 
 The Text Output of raw Timestamps:
 
->```php
-$timer->logTimestamps();
-```
->![Screenshot](readme/sc3.png)
+> ```php
+> $timer->logTimestamps();
+> ```
+> ![Screenshot](readme/sc3.png)
