@@ -1,13 +1,13 @@
 # ⏱ Measure PHP ExecutionTime
 Simple tool for measuring PHP execution time.
 
-##Features
+## Features
 - Super easy to use
 - HTML visualisation
 - No Dependencies
 
-##Documentation
-###Instantiate an object
+## Documentation
+### Instantiate an object
 
 ```php
 require("timetracker.php");
@@ -15,7 +15,7 @@ require("timetracker.php");
 $timer = new timetracker("start"); // Example Description
 ```
 
-###Add more timepoints if necessary
+### Add more timepoints if necessary
 
 ```php
 // Some Code
@@ -28,7 +28,7 @@ $timer->add("DB Query finished");
 $timer->add("Echoing Body");
 ```
 
-###Show the Results
+### Show the Results
 The HTML Output:
 
 >```php
