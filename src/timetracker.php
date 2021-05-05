@@ -19,7 +19,7 @@ class timetracker {
         highlight_string("<?php\n\$timestamps =\n" . var_export($this->timestamps, true) . ";\n?>");
     }
 
-    public function logPeriod(){
+    public function logPeriods(){
       $durations = array();
         
       for($i = 1; $i < $this->counter; $i++) {
