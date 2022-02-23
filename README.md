@@ -1,5 +1,5 @@
 # ⏱ Measure PHP ExecutionTime
-Simple tool for measuring PHP execution time.
+Simple tool for measuring PHP execution time
 
 ## Features
 - Super easy to use
